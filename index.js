@@ -34,11 +34,11 @@ if (firstAnswer == "Enter" || firstAnswer == "Cave"){
             }
         }
         else if (left == "Continue"){
-            let continue = window.prompt("You come across a chamber that reaches upward to a shining light above. There is a long, winding staircase, and a much quicker, but rickety-looking ladder that leads up toward the light. Which do you take the ladder or the staircase?")
-            if (continue == "Ladder"){
+            let cont = ("You come across a chamber that reaches upward to a shining light above. There is a long, winding staircase, and a much quicker, but rickety-looking ladder that leads up toward the light. Which do you take the ladder or the staircase?")
+            if (cont == "Ladder"){
                 console.log("After ascending a few feet up the ladder, one of its rungs snaps, and you comedically fall through each of the rungs below. Sheepish, you return home.")
             }
-            else if (continue == "Staircase"){
+            else if (cont == "Staircase"){
                 console.log("After ascending the stair case, you discover a shiny blue stone, which you take home and cherish forever")
             }
         }
